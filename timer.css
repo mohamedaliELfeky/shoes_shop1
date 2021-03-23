@@ -1,0 +1,68 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.coverClass {
+    background-image: url('image-6.jpg');
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.largeTextSubclass {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 5px 5px 5px rgb(111, 71, 151);
+    font-weight: bolder;
+    color: rgb(51, 35, 66);
+}
+
+.container {
+    padding: 7%;
+}
+
+.smallTextSubclass {
+    padding-top: 20px;
+    color: rgb(97, 96, 96);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.timerClass {
+    padding-top: 40px;
+}
+
+.timeClass {
+    float: left;
+    text-align: center;
+}
+
+.digitsClass {
+    box-shadow: 5px 5px 5px rgb(111, 71, 151);
+    background-color: rgba(230, 233, 236, 0.918);
+    border-radius: 10px;
+    border: 1px rgb(138, 101, 175);
+    border-style: solid;
+    font-size: 50px;
+    font-weight: bolder;
+    width: 90px;
+    margin: 5px;
+}
+
+.colonClass {
+    float: left;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 5px;
+    padding: auto;
+    align-items: center;
+}
+
+.timeScaleClass {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+}
